@@ -3,10 +3,10 @@ import { Injectable } from "@angular/core";
 import { firstValueFrom, Subject } from "rxjs";
 import { Game } from "./models";
 
-const BACKEND = 'http://localhost:8085';
+// const BACKEND = 'http://localhost:8085';
 
 //Remember to include 'https://' when copying the backend link from railway
-//const BACKEND = 'https://deploymenttestapp-production.up.railway.app'
+const BACKEND = 'https://testmongoangular-production.up.railway.app'
 
 
 @Injectable()
