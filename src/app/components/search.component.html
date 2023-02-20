@@ -1,0 +1,6 @@
+<h1>This is the Search Page</h1>
+
+<form [formGroup]="searchForm" (ngSubmit)="doSearch()">
+    <input type="text" placeholder="Game Ranking" formControlName="ranking">
+    <button type="submit">Search</button>
+</form>
